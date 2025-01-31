@@ -1,6 +1,6 @@
 /* Custom Navbar Styling */
 .navbar {
-    background-color: #D9534F !important; /* Warm Moroccan Red */
+    background-color:gold !important; /* Warm Moroccan Red */
     padding: 15px 0;
     transition: all 0.3s ease-in-out;
 }
@@ -9,19 +9,19 @@
 .navbar-brand {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #fff !important;
+    color: black !important;
     font-family: 'Poppins', sans-serif;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar-brand:hover {
-    color: #FFD700 !important; /* Golden Highlight */
+    color:red !important; 
 }
 
 /* Navbar Links */
 .navbar-nav .nav-link {
     font-size: 1.2rem;
-    color: #fff !important;
+    color: blue !important;
     padding: 10px 15px;
     transition: all 0.3s ease-in-out;
     font-weight: 500;
@@ -30,21 +30,21 @@
 
 /* Hover Effect for Navbar Links */
 .navbar-nav .nav-link:hover {
-    color: #FFD700 !important; /* Golden Highlight */
+    color: gold !important; /* Golden Highlight */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
 }
 
 /* Active Link Styling */
 .navbar-nav .nav-item.active .nav-link {
-    color: #FFD700 !important;
+    color: purple !important;
     font-weight: bold;
 }
 
 /* Navbar Toggler */
 .navbar-toggler {
     border: none;
-    background: #FFD700;
+    background: coral;
     padding: 8px 10px;
     border-radius: 5px;
 }
