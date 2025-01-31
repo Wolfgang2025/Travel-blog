@@ -91,11 +91,6 @@
     flex-direction: row-reverse;
 }
 
-/* Smooth Transition */
-.carousel-item {
-    transition: transform 3s ease-in-out;
-}
-
 /* ==========================
    📩 CONTACT FORM STYLING
 ========================== */
