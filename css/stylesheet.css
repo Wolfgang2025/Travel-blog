@@ -94,14 +94,19 @@
     transition: transform 3s ease-in-out;
 }
 
-        /* Contact Form Container */
-        .contact-container {
-            max-width: 600px;
-            padding: 40;
-            background: rgba(255, 255, 255, 0.9); /* Transparent background for readability */
-            border-radius: 10px;
-            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
-        }
+       /* Contact Form Container */
+       .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.9); /* Transparent background for readability */
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    }
 
         /* Button Styling */
         .btn-custom {
