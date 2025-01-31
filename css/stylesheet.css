@@ -65,13 +65,22 @@
     }
 }
 
-/* Reverse the sliding direction */
-.carousel-inner {
+/*Carousel style*/
+
+ /* Reverse slide direction */
+ .carousel-inner {
     display: flex;
-    flex-direction: row-reverse; /* Makes the slide transition right to left */
+    flex-direction: row-reverse;
 }
 
-/* Custom transition effect */
+/* Ensure full image visibility */
+.carousel-item img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Smooth slide effect */
 .carousel-item {
-    transition: transform 1s ease-in-out; /* Smooth slide effect */
+    transition: transform 1s ease-in-out;
 }
