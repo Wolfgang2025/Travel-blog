@@ -2,7 +2,7 @@
    🌟 NAVBAR STYLING
 ========================== */
 .navbar {
-    background-color: gold !important;
+    background-color: black !important;
     padding: 15px 0;
     transition: all 0.3s ease-in-out;
 }
@@ -11,13 +11,13 @@
 .navbar-brand {
     font-size: 1.8rem;
     font-weight: bold;
-    color: black !important;
+    color: gold !important;
     font-family: 'Poppins', sans-serif;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar-brand:hover {
-    color: blue !important;
+    color: white !important;
 }
 
 /* Navbar Links */
@@ -38,14 +38,14 @@
 
 /* Active Link */
 .navbar-nav .nav-item.active .nav-link {
-    color: purple !important;
+    color: white !important;
     font-weight: bold;
 }
 
 /* Navbar Toggler */
 .navbar-toggler {
     border: none;
-    background: coral;
+    background: orange;
     padding: 8px 10px;
     border-radius: 5px;
 }
