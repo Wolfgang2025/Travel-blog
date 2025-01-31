@@ -15,54 +15,55 @@
 
       <!--Contact Form-->
 
-<div class="container">
-    <div class="contact-container">
-        <h2 class="text-center mb-4">📩 Contact Us</h2>
-        <p class="text-center text-muted">Thank you for visiting our blog today. We hope you had fun. Make sure to come back again as we have so much more in store for you.</p>
-        
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <!-- Name -->
-            <div class="mb-3">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
+      <div class="container">
+        <div class="contact-container">
+            <h2 class="text-center mb-4">📩 Contact Us</h2>
+            <p class="text-center text-muted">Have a question about Marrakech? Want travel tips? We'd love to hear from you!</p>
+            
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
+                </div>
+    
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+                </div>
+    
+                <!-- Subject -->
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required placeholder="Enter subject">
+                </div>
+    
+                <!-- Message -->
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                </div>
+    
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-custom btn-lg w-100">Send Message</button>
+                </div>
+            </form>
+    
+            <!-- Home Button -->
+            <div class="text-center mt-3">
+                <a href="index.html" class="btn btn-primary btn-lg w-100">🏠 Home</a>
             </div>
-
-            <!-- Email -->
-            <div class="mb-3">
-                <label for="email" class="form-label">Your Email</label>
-                <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+    
+            <!-- Contact Info -->
+            <div class="text-center mt-4">
+                <p class="text-muted">📍 Marrakech, Morocco</p>
+                <p class="text-muted">📧 Email: <a href="mailto:contact@magicalmarrakech.com">contact@magicalmarrakech.com</a></p>
             </div>
-
-            <!-- Subject -->
-            <div class="mb-3">
-                <label for="subject" class="form-label">Subject</label>
-                <input type="text" class="form-control" id="subject" name="subject" required placeholder="Enter subject">
-            </div>
-
-            <!-- Message -->
-            <div class="mb-3">
-                <label for="message" class="form-label">Your Message</label>
-                <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
-            </div>
-
-            <!-- Submit Button -->
-            <div class="text-center">
-                <button type="submit" class="btn btn-custom btn-lg w-100" color="blue">Send Message</button>
-            </div>
-
-            <!-- Home button -->
-            <div class="text-center">
-                <button type="submit" class="btn btn-custom btn-lg w-100" color="blue">Home</button>
-            </div>
-        </form>
-
-        <!-- Contact Info -->
-        <div class="text-center mt-4">
-            <p class="text-muted">📍 Marrakech, Morocco</p>
-            <p class="text-muted">📧 Email: <a href="mailto:contact@magicalmarrakech.com">contact@magicalmarrakech.com</a></p>
         </div>
     </div>
-</div>
+    
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
