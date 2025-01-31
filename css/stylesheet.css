@@ -9,7 +9,7 @@
 
 /* Navbar Brand */
 .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 3 rem;
     font-weight: bold;
     color: gold !important;
     font-family: 'tangerine';
@@ -23,11 +23,11 @@
 /* Navbar Links */
 .navbar-nav .nav-link {
     font-size: 1.2rem;
-    color: blue !important;
-    padding: 10px 15px;
+    color: white !important;
+    font-family: tangerine;
+    padding: 30px 20px;
     transition: all 0.3s ease-in-out;
     font-weight: 500;
-    text-transform: uppercase;
 }
 
 .navbar-nav .nav-link:hover {
