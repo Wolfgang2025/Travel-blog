@@ -94,15 +94,6 @@
     transition: transform 3s ease-in-out;
 }
 
-        /* Full-page background */
-        body {
-            background: url('../images/jemaa_al_fnaa.jpg') no-repeat center center/cover;
-            height: 100vh; /* Full height */
-            display: flex;
-            align-items: center; /* Centers vertically */
-            justify-content: center; /* Centers horizontally */
-        }
-
         /* Contact Form Container */
         .contact-container {
             max-width: 600px;
