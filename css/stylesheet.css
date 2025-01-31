@@ -1,0 +1,60 @@
+/*Customising my Navigation Bar*/
+
+/* Navbar Custom Styles */
+.navbar {
+    background-color: #ff6b35 !important; /* Warm Moroccan-inspired color */
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #ffcc00 !important; /* Golden accent */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #fff !important;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Golden highlight */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    border: none;
+    background: #ffcc00;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Responsive Navbar - Center on Smaller Screens */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        display: block;
+        padding: 12px;
+    }
+}
