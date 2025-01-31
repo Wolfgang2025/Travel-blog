@@ -64,3 +64,14 @@
         padding: 12px;
     }
 }
+
+/* Reverse the sliding direction */
+.carousel-inner {
+    display: flex;
+    flex-direction: row-reverse; /* Makes the slide transition right to left */
+}
+
+/* Custom transition effect */
+.carousel-item {
+    transition: transform 1s ease-in-out; /* Smooth slide effect */
+}
