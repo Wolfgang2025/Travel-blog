@@ -97,7 +97,7 @@
         /* Contact Form Container */
         .contact-container {
             max-width: 600px;
-            padding: 100;
+            padding: 40;
             background: rgba(255, 255, 255, 0.9); /* Transparent background for readability */
             border-radius: 10px;
             box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
@@ -112,4 +112,14 @@
 
         .btn-custom:hover {
             background-color: gold;
+        }
+
+/* Apply styles only to the contact page */
+        body.contact-page {
+            background: url('../images/jemaa_al_fnaa.jpg') no-repeat center center/cover;
+            min-height: 100vh; /* Full height */
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically */
+            padding: 20px; /* Prevents overflow on small screens */
         }
