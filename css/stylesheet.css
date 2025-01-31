@@ -67,19 +67,29 @@
 
 /*Carousel style*/
 
- /* Reverse slide direction */
- .carousel-inner {
+ /* Carousel container with padding */
+ .carousel-container {
+    padding: 20px; /* Adds padding around the carousel */
+    max-width: 90vw; /* Keeps it slightly smaller than the full width */
+    margin: auto;
+}
+
+/* Ensure images fit nicely with padding */
+.carousel-item img {
+    width: 100%; /* Ensures images scale to the container width */
+    height: 80vh; /* Adjust height for a balanced look */
+    object-fit: contain; /* Ensures full image is visible without cropping */
+    border-radius: 20px; /* Optional: Adds rounded corners */
+    padding: 20px; /* Adds spacing inside each slide */
+}
+
+/* Reverse slide direction */
+.carousel-inner {
     display: flex;
     flex-direction: row-reverse;
 }
 
-/* Ensure full image visibility */
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-}
-
-/* Smooth slide effect */
+/* Smooth transition */
 .carousel-item {
-    transition: transform 1s ease-in-out;
+    transition: transform 3s ease-in-out;
 }
